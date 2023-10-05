@@ -1,0 +1,47 @@
+main {
+  margin-inline: 2rem;
+}
+
+video {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+main svg,
+main img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+main > div {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 2rem;
+  margin-top: 3rem;
+}
+
+main > div > section:nth-child(2),
+main > div > section:nth-child(2) > a {
+  height: min-content;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main > div > section:nth-child(2) > a > div {
+  padding-top: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 input[type="submit"] {
+  background-color: red;
+}
